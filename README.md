@@ -1,3 +1,12 @@
+# JobeInAHoneypot
+
+This version of Jobe is vulnerable and meant to serve as a honeypot. It has 2 vulnerabilities:
+
+- https://github.com/trampgeek/jobe/issues/39
+- https://github.com/trampgeek/jobe/issues/46
+
+------
+
 # JobeInABox
 
 ![Docker Stars](https://img.shields.io/docker/stars/trampgeek/jobeinabox.svg)

@@ -67,7 +67,7 @@ RUN ln -snf /usr/share/zoneinfo/"$TZ" /etc/localtime && \
     echo "Jobe" > /var/www/html/index.html && \
     git clone https://github.com/trampgeek/jobe.git /var/www/html/jobe && \
     apache2ctl start && \
-    cd /var/www/html/jobe && ./install && \
+    cd /var/www/html/jobe && git checkout dbc3c55 && ./install && \
     chown -R www-data:www-data /var/www/html && \
     apt-get -y autoremove --purge && \
     apt-get -y clean && \
